@@ -1,7 +1,7 @@
 # Private Function Decorator
 A decorator that makes a function private by executing a replacement function or a function that returns None (DEFAULT) when other class tries to access the function.
 
-- Example,returns None (Default option):
+- Example, returns None (Default option):
 ```
 @private
 def foo():
